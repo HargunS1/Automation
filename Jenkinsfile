@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        EC2_DEMO_HOST = 'ubuntu@34.220.249.97'
+        EC2_DEMO_HOST = 'ubuntu@50.112.122.55'
         AWS_KEY = credentials('aws-ec2-key1') // Jenkins credential for SSH
     }
 
